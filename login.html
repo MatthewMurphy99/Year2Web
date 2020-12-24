@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+        
+<title>Login</title>
+        
+<meta charset="utf-8"/>
+    
+<meta name="viewport" content="width=device-width, intial-scale =1, shrink-to-fit=no">
+            
+<meta name="author" content="Matthew Murphy"/>
+    
+<meta name = "keywords" content="login">
+        
+<script src="JavaScript/scripting.js"></script>
+    
+<script src="JavaScript/jquery-min.js"></script>
+
+<script src="JavaScript/bootstrap.bundle.min.js"></script>
+    
+<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+    
+</head>
+    
+<body>
+    
+<!-- Navbar -->
+    
+<div class="container"/>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link " href="index.html">Home </a>
+      <a class="nav-item nav-link" href="about.html">About ERC</a>
+      <a class="nav-item nav-link" href="fixtures.html">Fixtures</a>
+      <a class="nav-item nav-link" href="results.html">Results</a>
+      <a class="nav-item nav-link" href="spooktacular.html">Spooktacular</a>
+      <a class="nav-item nav-link" href="gear.html">Club Gear<span class="sr-only">(current)</span></a>
+    </div>
+  </div>
+    </nav>
+
+    <div class="btn-toolbar">
+        <a class="nav-item nav-link active" href="login.html">
+        <button type="button" class="btn btn-danger">Login<span class="badge badge-light" id="login"></span>
+        </button></a>
+    </div> 
+      
+    <div class="btn-toolbar">
+        <a class="nav-item nav-link" href="checkout.html">
+        <button type="button" class="btn btn-secondary ml-2">
+          Checkout <span class="badge badge-light" id="checkout"></span>
+        </button>
+        </a>
+    </div> 
+    
+<h2>Login</h2>
+    
+<div class="row">    
+        <div class="col-sm col-md-4"> 
+            <div class="alert alert-danger d-none" role="alert" id="loginerror">The username or password you entered is incorrect. <a href="">Forgot your password?</a></div>    
+            <form name="login" action="" method="get">
+                <div class="form-group">
+                    <label for="getEmail">Email address</label>
+                    <input type="email" class="form-control" id="getEmail" name="email" value="jsmith@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="getPassword1">Password</label> 
+                    <input type="password" class="form-control" id="getPassword1" name="password" value="10101010" required>
+                </div>    
+                <input type='submit'  class="btn btn-primary" value="Login">
+            </form>
+            <p> <a href="login.html">Need to Register?</a></p>
+        </div> 
+    </div>
+    
+    </body>
+    
+</html>
+    
